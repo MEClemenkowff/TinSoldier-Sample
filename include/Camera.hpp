@@ -49,11 +49,11 @@ class Camera
         };
 
         /*!
-         * \brief		Returns the origin and direction of a ray cast from the given pixel coordinates.
-         * \param[in]	PixelX			Horizontal pixel index to cast ray from.
-         * \param[in]	PixelY      	Vertical pixel index to cast ray from.
+         * \brief       Returns the origin and direction of a ray cast from the given pixel coordinates.
+         * \param[in]   PixelX          Horizontal pixel index to cast ray from.
+         * \param[in]   PixelY          Vertical pixel index to cast ray from.
          * \param[in]   Resolution      Resolution of camera sensor.
-         * \return		Ray		        Structure containing ray origin and direction.
+         * \return      Ray             Structure containing ray origin and direction.
          */
         Ray CastRayFromPixel(int PixelX, int PixelY, glm::vec2 Resolution);
 };
